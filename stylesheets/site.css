@@ -1,0 +1,136 @@
+.homeheaderbox{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgb(250, 200, 0) 75%, rgba(0,0,0,1) 100%);
+}
+
+header > h1{
+    text-indent: 30px;
+    font-size: 3em;
+}
+
+header > h2{
+    text-indent: 50px;
+    margin-top: -1.25em;
+}
+
+header > img{
+    float: left;
+    margin-top: -2em;
+}
+
+.homemainbox{
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+}
+
+a{
+    color: rgb(239, 192, 20);
+    font-weight: bold;
+}
+
+.link-button:hover{
+    color: rgb(116, 116, 116);
+}
+
+.link-button:focus{
+    color: rgb(249, 192, 23);
+}
+
+footer{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgb(250, 200, 0) 75%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    clear: both;
+}
+
+.galleryheaderbox{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgb(250, 200, 0) 75%, rgba(0,0,0,1) 100%);
+}
+
+.gallerymainbox{
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+}
+
+#valorant{
+    color: rgb(247, 202, 77);
+}
+
+#rl{
+    color: rgb(247, 202, 77);
+}
+
+#dayz{
+    color: rgb(247, 202, 77)
+}
+
+.gamesheaderbox{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgb(250, 200, 0) 75%, rgba(0,0,0,1) 100%);
+}
+
+.gamesmainbox{
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+}
+
+.demo {
+    border:1px double #000000;
+    border-collapse:collapse;
+    padding:5px;
+}
+.demo th {
+    border:1px double #000000;
+    padding:5px;
+    background:#C7C7C7;
+}
+.demo td {
+    border:1px double #000000;
+    padding:5px;
+}
+
+.contactheaderbox{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgb(250, 200, 0) 75%, rgba(0,0,0,1) 100%);
+}
+
+.contactmainbox{
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+}
+
+.pcsetupheaderbox{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgb(250, 200, 0) 75%, rgba(0,0,0,1) 100%);
+}
+
+.pcsetupmainbox{
+    border: 1px solid black;
+    background: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0; padding: 0;
+  }
+   
+  #container {
+    overflow: hidden;
+    height: 400px;
+    background: #edeae8;
+    position: relative;
+  }
+   
+  video {
+    position: absolute;
+     
+    /* Vertical and Horizontal center*/
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+  }
